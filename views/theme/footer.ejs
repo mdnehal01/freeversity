@@ -1,0 +1,26 @@
+
+<script src="js/index.js"></script>
+<script>
+    let dropdown = document.getElementById("profile");
+let cross = document.getElementById("cross");
+dropdown.addEventListener("click", function(){
+document.getElementById("profile-box").style.display="block";
+})
+
+cross.addEventListener("click", function(){
+document.getElementById("profile-box").style.display="none";
+})
+
+
+function FullView(ImgLink){
+// alert(ImgLink);
+document.getElementById("FullImage").src = ImgLink;
+document.getElementById("FullImageView").style.display="flex";
+}
+
+function Close(){
+document.getElementById("FullImageView").style.display="none";
+}
+</script>
+</body>
+</html>

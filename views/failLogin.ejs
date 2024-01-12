@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeversity Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h4>Either email or Password is Wrong.</h4>
+        <h1>Freeversity Login!</h1>
+        <form method="post" action="/login">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <br>
+            <button type="submit">Log In</button>
+            <p>Don't have an account? <a href="/signup">Sign Up!</a></p>
+        </form>
+        <p>Please ensure you have activated your account by clicking the activation link in the email we sent you.</p>
+        <p>If you have any issues or questions, please don't hesitate to reach out to our support team at mdnehalakhlaque43@gmail.com</p>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
